@@ -20,9 +20,15 @@
     </header>
 
     <main id="app">
+      <!-- lightbox can go here -->
+      <lightbox></lightbox>
+      <!-- end lightbox-->
+
         <nav id="character-nav">
             <ul class="characters">
                 <!-- prof thumb component goes here -->
+                <!-- pass the data object into the each new component using the :hero props binding-->
+                <herothumbnail @loadlb="loadLightBox" v-for="hero in heroData" :hero="hero"></herothumbnail>
             </ul>
         </nav>
 
