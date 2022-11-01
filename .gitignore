@@ -1,0 +1,7 @@
+.DS_Store
+*.mp4
+
+*.psd
+*.ai
+
+# If you want to track those files, you just add the files like this.
